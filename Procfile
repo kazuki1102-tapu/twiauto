@@ -1,2 +1,2 @@
 worker: python twiauto.py
-web: gunicorn my_twiautotapubuta:app --log-file=-
+web: gunicorn my_twiautotapubuta.wsgi --log-file=-

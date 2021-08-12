@@ -1,6 +1,5 @@
 #!/opt/alt/python36/bin/python3.6
 
-import OAuth1Session
 
 # -*- coding: utf-8 -*-
 import cgi

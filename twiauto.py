@@ -1,6 +1,6 @@
 #!/opt/alt/python36/bin/python3.6
 
-from requests_oauthlib import OAuth1Session
+import OAuth1Session
 
 # -*- coding: utf-8 -*-
 import cgi

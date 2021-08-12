@@ -1,7 +1,5 @@
 #!/opt/alt/python36/bin/python3.6
 
-pip install requests requests_oauthlib
-
 from requests_oauthlib import OAuth1Session
 
 # -*- coding: utf-8 -*-

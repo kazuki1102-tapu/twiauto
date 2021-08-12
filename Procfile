@@ -1,2 +1,2 @@
 worker: python twiauto.py
-web: gunicorn twiauto:app
+web: gunicorn app:app

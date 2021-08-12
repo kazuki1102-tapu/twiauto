@@ -1,2 +1,2 @@
 worker: python twiauto.py
-web: gunicorn gettingstarted.wsgi --log-file -
+web: gunicorn twiauto.py.wsgi --log-file -

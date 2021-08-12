@@ -1,2 +1,2 @@
 worker: python twiauto.py
-web: gunicorn twiauto.py.wsgi --log-file -
+web: gunicorn requests_oauthlib.wsgi --log-file -

@@ -48,4 +48,4 @@ def main():
         schedule.run_pending()
 
 if __name__ == "__main__":
-    app.run()    
+  main()    

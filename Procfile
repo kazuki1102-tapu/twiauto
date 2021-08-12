@@ -1,2 +1,2 @@
 worker: python twiauto.py
-web: gunicorn C:/定期実行/twiauto.py:app
+web: gunicorn twiauto:app

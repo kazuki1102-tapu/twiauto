@@ -1,2 +1,2 @@
-worker: python twiautotapubuta
-web: gunicorn twiautotapubuta:app
+worker: python twiauto.py
+web: gunicorn gettingstarted.wsgi --log-file -

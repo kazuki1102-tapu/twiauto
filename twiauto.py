@@ -29,7 +29,7 @@ def tweet():
   print(response.status_code)
 
 def getTweetContentsFromCsv():
-    with open('tweetContents.csv',"r") as f:
+    with open('https://github.com/kazuki1102-tapu/twiauto/blob/3842237ad735b8d543e88ef1e234c0d390f030bf/tweetContents.csv',"r") as f:
         tweetContents = list(csv.reader(f))
 
     tweetContentsLength = len(tweetContents)        

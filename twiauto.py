@@ -29,7 +29,7 @@ def tweet():
   print(response.status_code)
 
 def getTweetContentsFromCsv():
-    with open('C:/wps_Excel/python_training/tweetContents.csv',"r") as f:
+    with open('tweetContents.csv',"r") as f:
         tweetContents = list(csv.reader(f))
 
     tweetContentsLength = len(tweetContents)        
